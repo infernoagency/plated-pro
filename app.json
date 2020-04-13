@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Plated Pro",
+    "slug": "plated-pro",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "usesAppleSignIn": true,
+      "bundleIdentifier": "com.infernoagency.platedpro"
+    },
+      "android": {
+          "package": "com.infernoagency.platedpro"
+      },
+    "facebookAppId": "2991166280908217",
+    "facebookScheme": "fb2991166280908217",
+    "facebookDisplayName": "Plated",
+    "extra": {
+      "googleAppId": {
+        "ios": "163673535391-pi77v7tivdldblj4durdtivii455p0c5.apps.googleusercontent.com",
+        "android": "163673535391-hqpc0si6eq7sdrd0numjt3uffh8gha73.apps.googleusercontent.com"
+      }
+    }
+  }
+}
